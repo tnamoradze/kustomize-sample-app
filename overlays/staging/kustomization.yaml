@@ -5,3 +5,5 @@ bases:
 - ../../base
 patchesStrategicMerge:
 - config-map.yaml
+spec:
+  replicas: 2
